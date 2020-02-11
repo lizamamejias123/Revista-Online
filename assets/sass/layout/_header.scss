@@ -1,0 +1,42 @@
+.header {
+    padding: 10px;
+    border-bottom: 1px solid gray
+}
+
+.header__logo {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10%;
+}
+
+.header__nav {
+    
+    width: 30%;
+    list-style: none;
+    grid-template-columns: 40px 40px;
+    grid-gap: 50px;
+}
+
+.header__nav__list {
+    list-style: none;
+    
+}
+
+
+.header__nav ul li a {
+    text-decoration: none;}
+   
+
+.header__nav__busqueda {
+    border-radius: 30px;
+}
+
+.header__logo,
+.header__nav {
+   
+    width: 48%;
+}
